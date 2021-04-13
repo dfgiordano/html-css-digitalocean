@@ -1,0 +1,60 @@
+/* common */
+.color_white {
+    color:white;
+}
+.color_elt_blue {
+    color: #1B6AFF;
+}
+/* navbar */
+.navbar {
+    margin: 0;
+}
+.navbar-default {
+    height: 60px;
+    line-height: 60px;
+    border:0px;
+    background-color: white;
+}
+.navbar-brand {
+    padding:0px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+#logo {
+    display: inline-block;
+    height: 40px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+.navbar-default .navbar-nav>li>a {
+    padding:0;
+    padding-right: 15px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #1B6AFF;
+}
+.navbar-default .navbar-toggle {
+    border: 0px;
+}
+/* jumbotron */
+.my_jumbotron {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-image: url('..//img/bg-banner-home.jpg');
+}
+.my_jumbotron .container .col-lg-5 {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.my_jumbotron .col-lg-7 p {
+    font-size: 22px;
+    opacity: 0.7;
+}
+.my_jumbotron .col-lg-5 h3 {
+    font-size: 30px;
+}
+
+
