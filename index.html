@@ -6,12 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
         <link rel="stylesheet" href="css/style.css">
         <title>Digital Ocean Website</title>
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-default nav_bar">
+            <nav class="navbar navbar-default">
                 <div class="container">
                     <div class="row">
                             <!-- Brand and toggle get grouped for better mobile display -->
@@ -28,7 +29,7 @@
                                     </a>
                             </div>
                         </div>
-                                <!-- Collect the nav links, forms, and other content for toggling -->
+                        <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <div class="col-lg-5">
                                 <ul class="nav navbar-nav">
@@ -59,7 +60,7 @@
                 </div>
                 <div class="col-lg-5 col-md-12">
                     <div class="text-center">
-                        <h3>Deploy your app in seconds.</h3>
+                        <h3 class="color_dark_blue">Deploy your app in seconds.</h3>
                         <h3 class="color_elt_blue">Get started now.</h3>
                         <form>
                             <div class="form-group">
@@ -69,22 +70,313 @@
                               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                             </div>
                         </form>
-                        <div>
-                            <button>
-                                Create your account
-                            </button>
+                        <div class="my_btn my_btn_blue color_white">
+                            <a href="">Create your account</a>
                         </div>
-                        <div>
-                            <button type="button" class="btn btn_white btn-outline-secondary">Sign up with google</button>
+                        <div class="my_btn my_btn_shadow">
+                            <a href="#">Sign up with google</a>
                         </div>
-                        
                         <div>By signing up you agree to the <a class="color_elt_blue"><u>Terms of Service</u></a>.</div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- main -->
+        <main>
+            <section class="section_1">
+                <div class="container">
+                    <div class="row">
+                        <h5 class="color_grey text-center text-uppercase">innovative business trust digitalocean</h5>
+                    <div class="text-center">
+                        <img src="img/docker.svg" alt="Docker">
+                        <img src="img/gitlab.svg" alt="Gitlab">
+                        <img src="img/slack.svg" alt="Slack">
+                        <img src="img/hashicorp.svg" alt="Hashicorp">
+                        <img src="img/hashicorp.svg" alt="Hashicorp">
+                        <img src="img/splunk.svg" alt="Splunk">
+                    </div>
+                    <div class="text-center color_elt_blue"> <a href="">View customer stories <span id="major">&#62;</span></a>
+                    </div>
+                </div>
+            </section>
+            <section class="section_2 text-center">
+                <div class="container">
+                    <div class="row">
+                        <h4 class="text-center color_dark_blue">Deploy and scale seamlessly</h4>
+                        <p class="color_grey" >Our optimized configuration process saves your team time running and scaling distributed applications, Al &amp; machine learning workloads, hosted services, client websites, or CI/CD environments. </p>
+                    </div>
+                    <div class="row">
+                        <div class="my_row_section_2">
+                            <div class="col-xs-12 col-md-1">
+                                <ul class="vertical_list">
+                                    <li>Deploy</li>
+                                    <li>Manage</li>
+                                    <li>Secure</li>
+                                    <li>Scale</li>
+                                    <li>Monitor</li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-md-4 col-md-offset-2">
+                                <div class="text-left">
+                                    <img src="img/cluster-deploy.svg" alt="ClusterDeployments">
+                                    <h5 class="color_dark_blue">Cluster deployments</h5>
+                                    <p class="color_grey">Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API. </p>
+                                </div>
+                                <div class="text-left">
+                                    <img src="img/one-click.svg" alt="OneClickApps">
+                                    <h5 class="color_dark_blue">One-click apps</h5>
+                                    <p class="color_grey">Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-4">
+                                <div class="text-left">
+                                    <img src="img/optimized-compute.svg" alt="optimized-compute">
+                                    <h5 class="color_dark_blue">Optimize Compute types</h5>
+                                    <p class="color_grey">Get the compute resources you need with Standards or Optimized Droplets.</p> 
+                                </div>
+                                <div class="text-left">
+                                    <img src="img/global.svg" alt="Global">
+                                    <h5 class="color_dark_blue">Global availability</h5>
+                                    <p class="color_grey">Deploy to any of hour data center regions around the world.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section_3">
+                <h4 class="text-center color_dark_blue">Designed for developers</h4>
+                <p class="text-center color_grey">Build more and spend less time managing your infrastructure with our easy&minus;to&minus;use control panel and API.</p>
+                <div class="section_3_container">
+                    <i class=" angle_left color_grey fas fa-angle-left"></i>
+                    <img src="img/slide.jpg" alt="SlideCreateDroplets">
+                    <i class=" angle_right fas fa-angle-right"></i>
+                    <div class="color_dark_blue text-center">Create compute servers in 55 seconds or less.</div>
+                    <ul class="text-center orizontal_list">
+                        <li class="full"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> 
+            </section>
+            <section class="section_4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4 class="text-center color_dark_blue">The features your business needs</h4>
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                            <div class="text-left">
+                                <img src="img/pred-pricing.svg" alt="PredictablePricing">
+                                <h5 class="color_dark_blue">Predictable pricing</h5>
+                                <p class="color_grey">Leave complex pricing structures behind. Always know what you&apos;ll pay per month with a flat, industry&minus;leasing pricing structure.</p>
+                                <a class="color_elt_blue" href="#">Pricing &gt;</a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                            <div class="text-left">
+                                <img src="img/world-class.svg" alt="WorldClass">
+                                <h5 class="color_dark_blue">World&minus;class service</h5>
+                                <p class="color_grey">Free round&minus;the&minus;clock technical support for all customers. You&apos;ll feel the love.</p>
+                                <a class="color_elt_blue" href="#">Support &gt;</a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                            <div class="text-left">
+                                <img src="img/reliable-platform.svg" alt="ReliablePlatform">
+                                <h5 class="color_dark_blue">Reliable platform</h5>
+                                <p class="color_grey">More then 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99&percnt; SLA for all services.</p>
+                                <a class="color_elt_blue" href="#">Security &gt;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            </section>
+            <section class="section_5 text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4 class="color_white text-center">Service your customers around the world from 12 regions.</h4>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <ul class="vertical_list">
+                                <li>
+                                    <div class="color_white">
+                                        AMS2
+                                    </div>
+                                    <div>
+                                        Amsterdam, Netherlands
+                                    </div>
+                                    <div class="color_elt_blue">
+                                        Test Speed &gt;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="color_white">
+                                        AMS3
+                                    </div>
+                                    <div>
+                                        Amsterdam, Netherlands
+                                    </div>
+                                    <div class="color_elt_blue">
+                                        Test Speed &gt;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="color_white">
+                                       BLR1 
+                                    </div>
+                                    <div>
+                                        Bangalor, India
+                                    </div>
+                                    <div class="color_elt_blue">
+                                        Test Speed &gt;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="color_white">
+                                        FRA1
+                                    </div>
+                                    <div>
+                                        Frankfurt, German
+                                    </div>
+                                    <div class="color_elt_blue">
+                                        Test Speed &gt;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="color_white">
+                                        LON1
+                                    </div>
+                                    <div>
+                                        London, UK
+                                    </div>
+                                    <div class="color_elt_blue">
+                                        Test Speed &gt;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="color_white">
+                                        NYC1
+                                    </div>
+                                    <div>
+                                        New York, USA
+                                    </div>
+                                    <div class="color_elt_blue">
+                                        Test Speed &gt;
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <ul class="vertical_list">
+                                <li>
+                                    <div class="color_white">
+                                        AMS2
+                                    </div>
+                                    <div>
+                                        Amsterdam, Netherlands
+                                    </div>
+                                    <div class="color_elt_blue">
+                                        Test Speed &gt;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="color_white">
+                                        AMS3
+                                    </div>
+                                    <div>
+                                        Amsterdam, Netherlands
+                                    </div>
+                                    <div class="color_elt_blue">
+                                        Test Speed &gt;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="color_white">
+                                       BLR1 
+                                    </div>
+                                    <div>
+                                        Bangalor, India
+                                    </div>
+                                    <div class="color_elt_blue">
+                                        Test Speed &gt;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="color_white">
+                                        FRA1
+                                    </div>
+                                    <div>
+                                        Frankfurt, German
+                                    </div>
+                                    <div class="color_elt_blue">
+                                        Test Speed &gt;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="color_white">
+                                        LON1
+                                    </div>
+                                    <div>
+                                        London, UK
+                                    </div>
+                                    <div class="color_elt_blue">
+                                        Test Speed &gt;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="color_white">
+                                        NYC1
+                                    </div>
+                                    <div>
+                                        New York, USA
+                                    </div>
+                                    <div class="color_elt_blue">
+                                        Test Speed &gt;
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            <section class="section_6">
+                    <h4 class="text-center color_dark_blue">Development teams love DigitalOcean</h4>
+                    <div class="container position-relative">
+                        <div class="row">
+                            <div class="col-xs-2 col-lg-3">
+                                <i class=" angle_left color_grey fas fa-angle-left"></i>
+                            </div>
+                            <div class="col-xs-8 text-center col-lg-6">
+                                <img src="img/rocker.png" alt="Rockerbox">
+                                <p class="color_grey">&quot;We have been able to make scaling the technical infrastructure of our business cost effective and efficient. &quot;</p>
+                                <div class="color_dark_blue"><strong>Rick O&apos;Toole</strong> </div>
+                                <div class="color_dark_blue">Co&minus;founder and CTO</div>
+                                <a class="color_elt_blue" href="#">Read story &gt;</a>
+                            </div>
+                            <div class="col-xs-2 col-lg-3">
+                                <i class=" angle_right color_grey fas fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <i class=" angle_left color_grey fas fa-angle-left"></i>
+                    <div class="section_6_container text-center">
+                        <img src="img/rocker.png" alt="Rockerbox">
+                        <p class="color_grey">&quot;We have been able to make scaling the technical infrastructure of our business cost effective and efficient. &quot;</p>
+                        <div class="color_dark_blue"><strong>Rick O&apos;Toole</strong> </div>
+                        <div class="color_dark_blue">Co&minus;founder and CTO</div>
+                        <a class="color_elt_blue" href="#">Read story &gt;</a>
+                    </div>
+                    <i class=" angle_right color_grey fas fa-angle-right color_dark_blue"></i> -->
+                    
+            </section>
+        </main>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
