@@ -32,6 +32,13 @@
     border:0px;
     background-color: white;
 }
+.navbar.navbar-default {
+    position: fixed;
+    left:0;
+    right:0;
+    border-radius: 0;
+    z-index:5;
+}
 .navbar-brand {
     padding:0px;
     line-height: 60px;
@@ -64,7 +71,7 @@
 }
 /* jumbotron */
 .my_jumbotron {
-    padding-top: 60px;
+    padding-top: 120px;
     padding-bottom: 40px;
     background-image: url('..//img/bg-banner-home.jpg');
 }
@@ -73,7 +80,6 @@
     padding-bottom: 10px;
     background-color: white;
 }
-
 .my_jumbotron .col-lg-7 p {
     font-size: 22px;
     opacity: 0.7;
@@ -270,8 +276,10 @@
 }
 /* section_6 */
 .section_6 {
-    position:relative;
     background-color: #F3F5F9;
+}
+.section_6 .container {
+    position: relative;
 }
 .section_6 h4 {
     font-size: 30px;
@@ -297,13 +305,16 @@
 }
 .section_6 .angle_left {
     position: absolute;
-    left: 65%;
+    left: 80%;
+    padding-top: 50%;
     font-size: 50px;
 }
 .section_6 .angle_right {
     position: absolute;
-    right: 65%;
+    right: 80%;
+    padding-top: 50%;
     font-size: 50px;
+    color: #120038;
 }
 .section_6 p {
     font-size: 20px;
@@ -311,53 +322,32 @@
 }
 .section_6 a {
     display: inline-block;
-    padding: 20px 0;
+    margin: 10px 0;
     text-decoration: none;
 }
-.section_6 .col-xs-12 {
-    padding-bottom: 30px;
+.before_footer {
+    padding: 30px 0;
     background: linear-gradient(
         360deg
-        , #120038 0%, #2a35b0 100%);
+        , #18099b 0%, #2a35b0 100%);
 }
 .section_6 h5 {
     font-size: 30px;
     padding-top: 30px;
     padding-bottom: 15px;
 }
+.btn_white {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
 .section_6 .col-xs-12 a {
     padding: 5px 12px;
     border-radius: 5px;
     background-color: white;
 }
-/*
-
-
-.section_6 .angle_left {
-    position: absolute;
-    top: 60%;
-    left: 25%;
-    font-size: 50px;
-}
-.section_6 .angle_right {
-    position: absolute;
-    top: 60%;
-    right: 25%;
-    font-size: 50px;
-}
-.section_6 p {
-    font-size: 22px;
-    padding: 20px 0;
-}
-.section_6 a {
-    display: inline-block;
-    padding: 20px 0;
-    text-decoration: none;
-} */
-
 /* footer */
 footer {
-    padding-top: 100px;
     font-weight: bold;
     color:#808AA1;
     background-color: #031B4E;
@@ -392,9 +382,11 @@ footer ul {
 footer h6 {
     font-size: 18px;
 }
+footer a:hover {
+    text-decoration: none;
+}
 
-
-
+/* media */
 @media screen and (max-width: 970px) {
     /* section_1 */
     .section_1 img {
@@ -447,6 +439,10 @@ footer h6 {
     .section_6 {
         height:700px;
     }
+    .before_footer {
+        height: 300px;
+    }
+    /* footer */
     footer {
         padding-top:0;
     }
