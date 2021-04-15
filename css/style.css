@@ -69,6 +69,11 @@
 .nav.navbar-nav:not(.navbar-right) {
     margin-left: 60px;
 }
+#sign_up {
+    display:inline-block;
+    color: #1B6AFF;
+    border-color: 2px solid #1B6AFF;
+}
 /* jumbotron */
 .my_jumbotron {
     padding-top: 120px;
@@ -278,16 +283,13 @@
 .section_6 {
     background-color: #F3F5F9;
 }
-.section_6 .container {
+.section_6 {
     position: relative;
 }
 .section_6 h4 {
     font-size: 30px;
     padding: 50px 0;
     margin:0;
-}
-.section_6 .col-xs-2 {
-    height: 100%;
 }
 .section_6 .col-xs-8 {
     border-radius: 5px;
@@ -297,22 +299,25 @@
 .section_6 img {
     display:block;
     margin: auto;
-    width:80%;
-    margin-top: 50px;
+    width: 25%;
+    margin-top: 20px;
 }
-.section_6 .col-xs-2 {
+.my_container {
+    width: 50%;
+    margin: auto;
     position: relative;
+    background-color: white;
 }
 .section_6 .angle_left {
     position: absolute;
-    left: 80%;
-    padding-top: 50%;
+    left: 20%;
+    top:35%;
     font-size: 50px;
 }
 .section_6 .angle_right {
     position: absolute;
-    right: 80%;
-    padding-top: 50%;
+    right: 20%;
+    top:35%;
     font-size: 50px;
     color: #120038;
 }
@@ -348,6 +353,7 @@
 }
 /* footer */
 footer {
+    padding-top: 20px;
     font-weight: bold;
     color:#808AA1;
     background-color: #031B4E;
@@ -435,13 +441,6 @@ footer a:hover {
     .section_5 ul li div:nth-child(2) {
         padding-left: 20px;
     }
-    /* section_6 */
-    .section_6 {
-        height:700px;
-    }
-    .before_footer {
-        height: 300px;
-    }
     /* footer */
     footer {
         padding-top:0;
@@ -471,5 +470,12 @@ footer a:hover {
     .section_6 .angle_left,
     .section_6 .angle_right {
         display:none;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    .navbar-toggle {
+        display: block !important;
+        position: absolute;
+        right:0;
     }
 }
